@@ -1,0 +1,33 @@
+{
+  "name": "instant-mixologist-for-alexa",
+  "version": "1.0.0",
+  "description": "hot to skill for making drinks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pettittmj/instant_mixologist.git"
+  },
+  "keywords": [
+    "Alexa",
+    "skill",
+    "howto",
+    "bar",
+    "instant",
+    "mixologist",
+    "alcohol",
+    "drinks"
+  ],
+  "author": "Reliant-games",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pettittmj/instant_mixologist/issues"
+  },
+  "homepage": "https://github.com/pettittmj/instant_mixologist#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "universal-analytics": "^0.4.13"
+  }
+}
