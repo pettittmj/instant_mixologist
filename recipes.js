@@ -61,6 +61,7 @@ module.exports = {
         "sidecar": "one half ounce of cointreau, one half teaspoon of Fresh Lemon Juice, 1 ounce of Remy Martin Cognac, 3 to 4 ice cubes. Combine all ingredients in a shaker and shake vigorously. Strain into a chilled cocktail glass.",
         "so co and lime": "three quarters ounce of Southern Comfort,  one half ounce of lime juice. Shake and strain into a shot glass",
         "spritzer": "3 ounces of Dry White Wine, Club Soda. Pour wine in a glass and fill with soda. Garnish with a Lemon Twist.",
+        "strawberry daiquiri": "This recipe is for a serving of six.  Pour 1 cup of light rum, and three qurters, of a cup of lime juice, into a blender.  Add one third cup of sugar and whirl to dissolve.  Drop 16 ounces of frozen strawberries into the blender a few at a time, blending until smooth.  Serve in chilled glasses.",
         "surfer on acid": "one half ounce of Jagermeister, one half ounce of Peach Schnapps, one half ounce of Pineapple Juice. Shake over ice and strain into a shot glass.",
         "tequila sunrise": "one half ounce of Grenadine, 1 and a half ounce of Tequila , Orange Juice. Pour Grenadine into a tall glass first. Then add Tequila and fill with ice and Orange Juice. Garnish with an Orange Slice.",
         "tom collins": "1 and a half ounces of Gin, Juice of one half Lemon, 1 teaspoon of Sugar, Club Soda. Shake the first three ingredients and pour over ice. Top with Club Soda.",

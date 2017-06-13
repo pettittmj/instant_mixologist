@@ -37,16 +37,18 @@ var handlers = {
         var intentTrackingID = ua('UA-99747841-1');
 
         if (recipe) {
-            this.attributes['speechOutput'] = recipe + ", Now what else can I help you make?";
+            this.attributes['speechOutput'] = "The recipe for a " + itemName + " is, " + recipe + ", Now what else can I help you make?";
             this.attributes['repromptSpeech'] = this.t("RECIPE_REPEAT_MESSAGE");
-            this.emit(':askWithCard', recipe + ", Now what else can I help you make?", this.attributes['repromptSpeech'], cardTitle, recipe);
-            var requestedData = ("Drink requested successfully: " + recipe).toString();
+            this.emit(':askWithCard', "The recipe for a " + itemName + " is, " + recipe + ", Now what else can I help you make?", this.attributes['repromptSpeech'], cardTitle, recipe);
+            var requestedData = (itemName +" : " + recipe).toString();
             intentTrackingID.event("success", requestedData).send();
         } else {
             var speechOutput = this.t("RECIPE_NOT_FOUND_MESSAGE");
             var repromptSpeech = this.t("RECIPE_NOT_FOUND_REPROMPT");
             if (itemName) {
                 speechOutput += this.t("RECIPE_NOT_FOUND_WITH_ITEM_NAME", itemName);
+            var requestedData2 = ("Drink unkown: " + speechOutput).toString();
+            intentTrackingID.event("Drink unknown", requestedData2).send();
             } else {
                 speechOutput += this.t("RECIPE_NOT_FOUND_WITHOUT_ITEM_NAME");
             }
